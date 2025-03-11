@@ -1,0 +1,131 @@
+@media (width <=576px) {
+    .grid13 {
+        grid-template-columns: auto;
+    }
+
+    .gridrow {
+        grid-template-rows: 1fr;
+        gap: 2rem;
+    }
+
+    .grid2,
+    .grid3,
+    .gridnew {
+        grid-template-columns: auto;
+    }
+
+    .gridfr3{
+        grid-template-columns: 1fr;
+    }
+
+    .pots {
+        grid-column: span 1;
+    }
+
+    .budgets {
+        grid-row: span 1;
+    }
+
+    .transactions {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .align {
+        padding: 0 1rem;
+    }
+
+    .cspacing {
+        padding: 1rem 0;
+    }
+}
+
+@media (width > 576px) and (width <=768px) {
+    .grid13 {
+        grid-template-columns: auto;
+    }
+
+    .gridrow {
+        grid-template-rows: 1fr;
+        gap: 2rem;
+    }
+
+    .gridnew {
+        grid-template-columns: auto;
+    }
+
+    .grid2,
+    .grid3 {
+        grid-template-columns: auto auto;
+    }
+
+    .gridfr3{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pots {
+        grid-column: span 1;
+    }
+
+    .budgets {
+        grid-row: span 1;
+    }
+
+    .transactions {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .align {
+        padding: 0 1rem;
+    }
+
+    .cspacing {
+        padding: 1rem 0;
+    }
+}
+
+@media (width > 768px) and (width <=1024px) {
+    .grid13 {
+        grid-template-columns: auto;
+    }
+
+    .gridrow {
+        grid-template-rows: 1fr;
+        gap: 2rem;
+    }
+
+    .gridnew {
+        grid-template-columns: auto auto;
+    }
+
+    .grid2,
+    .grid3 {
+        grid-template-columns: auto auto;
+    }
+
+    .gridfr3{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pots {
+        grid-column: span 1;
+    }
+
+    .budgets {
+        grid-row: span 1;
+    }
+
+    .transactions {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .align {
+        padding: 0 1rem;
+    }
+
+    .cspacing {
+        padding: 1rem 0;
+    }
+}
